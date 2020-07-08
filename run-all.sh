@@ -1,5 +1,18 @@
 #!/bin/bash
 
+while [ ! -z $1 ]
+do
+    if [ $1 == "-configure" ]
+    then
+        bash configure.sh
+    fi
+    if [ $1 == "-clone" ]
+    then
+        bash clone-all.sh
+    fi
+    shift
+done
+
 REPOSITORIES="
 student-go-node
 blockchain-go-node

@@ -11,7 +11,8 @@ if __name__ == '__main__':
     for i in data:
 
         print("Creating Table: " +i['TableName'])
-        table = client.create_table(
+        try:
+            table = client.create_table(
             TableName=i['TableName'],
             KeySchema=[
                 {
@@ -26,10 +27,13 @@ if __name__ == '__main__':
                 }
 
             ],
-        ProvisionedThroughput={
+            ProvisionedThroughput={
             'ReadCapacityUnits': 5,
             'WriteCapacityUnits': 5
-        })
-        print("Table status:", table)
-    
+            })
+            print("Table status:", table)
+        except client.exceptions.ResourceInUseException:
+            print("TABLE ALREADY PRESENT")
+            pass
+
     print("Done..!")
