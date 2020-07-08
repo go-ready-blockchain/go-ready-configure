@@ -19,7 +19,7 @@ do
         
             pushd src
             go mod download
-            go run main.go &
+            gnome-terminal -e 'sh -c "go run main.go; sleep 10; exec bash"' 
             popd
         
         popd
