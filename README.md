@@ -5,22 +5,31 @@ Design and Implementation of a consensus algorithm to build zero trust model
 ## Tools 
 
 [GoLang](https://golang.org) - https://golang.org
+
 [Python](https://www.python.org) - https://www.python.org
+
 [AWS DynamoDB](https://aws.amazon.com/dynamodb/) - https://aws.amazon.com/dynamodb/
 
 ## GoLang Libraries/Modules
 
 [AWS SDK](https://aws.amazon.com/sdk-for-go/) - https://aws.amazon.com/sdk-for-go/
+
 [Crypto for RSA](https://golang.org/pkg/crypto/) - https://golang.org/pkg/crypto/
+
 [Econding](https://golang.org/pkg/encoding/) - https://golang.org/pkg/encoding/
+
 [SMTP](https://golang.org/pkg/net/smtp/) - https://golang.org/pkg/net/smtp/
+
 [Math](https://golang.org/pkg/math/) - https://golang.org/pkg/math/
+
 [Bytes](https://golang.org/pkg/bytes/) - https://golang.org/pkg/bytes/
+
 [Time](https://golang.org/pkg/time/) - https://golang.org/pkg/time/
 
 ## Containerisation 
 
 [Docker](https://www.docker.com) - https://www.docker.com
+
 [Openshift](https://www.openshift.com) - https://www.openshift.com
 
 ## Source Code
