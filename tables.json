@@ -1,0 +1,39 @@
+[
+    {
+        "TableName" : "BLockchain",
+        "KeyType" : "HASH",
+        "Key": "Hash",
+        "AttributeType": "B"
+
+    },
+    {
+        "TableName" : "Buffer",
+        "KeyType" : "HASH",
+        "Key": "Name",
+        "AttributeType": "S"
+    },
+    {
+        "TableName" : "Encryption",
+        "KeyType" : "HASH",
+        "Key" : "Name",
+        "AttributeType": "S"
+    },
+    {
+        "TableName" : "Lasthash",
+        "KeyType" : "HASH",
+        "Key": "LastHash",
+        "AttributeType": "S"
+    },
+    {
+        "TableName" : "Publickeys",
+        "KeyType" : "HASH",
+        "Key": "Name",
+        "AttributeType": "S"
+    },
+    {
+        "TableName" : "Student",
+        "KeyType" : "HASH",
+        "Key" :"Usn",
+        "AttributeType": "S"
+    }
+]
